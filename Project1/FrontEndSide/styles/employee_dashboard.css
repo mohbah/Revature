@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(87, 144, 209);
+}
+
+table{
+    margin: 5px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+td{
+    background-color: rgb(85, 84, 84);
+    color: white;
+}
+
+th {
+    background-color: rgb(79, 96, 138); 
+    color: white;
+}
+
+#new-reimb-btn{
+    display: flex;
+    margin: 5px;
+    background-color: rgb(30, 32, 34);
+    
+}
+
+#new-reimb-btn:hover{
+    background-color: rgb(30, 66, 44);
+
+
+}

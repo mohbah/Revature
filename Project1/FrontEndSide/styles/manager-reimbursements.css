@@ -1,0 +1,90 @@
+#reimb-table{
+    width: 90%;
+    margin: 20px auto 0px;
+}
+
+#outer-container{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+
+#resolve-reimb-form{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto 0px;
+}
+
+#resolve-container{
+    display:flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 10px auto 0px;
+}
+
+#reimb-resolve-input{
+    width: 5%;
+}
+#reimb-resolve-comment{
+    width: 45%;
+}
+
+#approve-reimb{
+    width: 24%;
+}
+
+#deny-reimb{
+    width: 24%;
+}
+
+#filter-container{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+}
+
+#all-reimb{
+    width: 33%;
+}
+
+#pending-reimb{
+    width: 33%;
+}
+
+#approved-reimb{
+    width: 24.8%;
+    
+}
+
+#past-reimb{
+    width: 33%;
+}
+
+#back_btn{
+    position:relative; left: 80px;
+}
+
+table{
+    margin: 5px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+td{
+    background-color: rgb(85, 84, 84);
+    color: white;
+}
+
+th {
+    background-color: rgb(79, 96, 138); 
+    color: white;
+}
